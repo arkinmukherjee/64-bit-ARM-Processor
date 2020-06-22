@@ -2,7 +2,7 @@
 
 This project contains a fully working 5-stage CPU pipeline using ARM LEGV8 instruction set. It can run at a 20 MHz clock rate, making each clock cycle 50 nanoseconds. 
 
-The 32nd register is the zero register and will always contain the value of 0. The ALU performs operations in log(n) using the Look Ahead Carry (LAC) technique. The processor handles 32-bit instructions in all 6 formats (R, I, D, B, CB, and IM). 
+The 32nd register is the zero register and will always contain the value of 0. The ALU performs operations in log(n) time by using the Look Ahead Carry (LAC) technique. The processor handles 32-bit instructions in all 6 formats (R, I, D, B, CB, and IM). 
 
 The following instructions are supported:
   - ADD
